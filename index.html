@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foundry Cycles — Custom Frames, Built to Ride</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="wordmark">Foundry Cycles</a>
+    <nav class="main-nav">
+      <a href="#work">The Work</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="kicker">Hand-built in Portland, Oregon</p>
+        <h1>A frame is a promise the road will hold.</h1>
+        <p class="hero-lede">We build and repair steel bicycle frames one at a time, for riders who plan to keep them for twenty years.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Start a build</a>
+          <a href="#work" class="btn btn-ghost">See the frames</a>
+        </div>
+      </div>
+      <div class="hero-diagram" aria-hidden="true">
+        <svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg">
+          <!-- blueprint grid -->
+          <defs>
+            <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+              <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#2F5D77" stroke-width="0.5" opacity="0.25"/>
+            </pattern>
+          </defs>
+          <rect width="560" height="360" fill="url(#grid)"/>
+          <!-- frame line art -->
+          <g fill="none" stroke="#D65A31" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="120" y1="270" x2="260" y2="120"/>
+            <line x1="260" y1="120" x2="380" y2="120"/>
+            <line x1="120" y1="270" x2="380" y2="270"/>
+            <line x1="260" y1="120" x2="380" y2="270"/>
+            <line x1="380" y1="120" x2="440" y2="270"/>
+            <line x1="380" y1="270" x2="440" y2="270"/>
+          </g>
+          <g fill="none" stroke="#EDEAE3" stroke-width="2">
+            <circle cx="120" cy="270" r="46"/>
+            <circle cx="440" cy="270" r="46"/>
+          </g>
+          <g stroke="#6B7280" stroke-width="1" stroke-dasharray="3 4">
+            <line x1="120" y1="270" x2="440" y2="270"/>
+          </g>
+          <text x="248" y="300" fill="#6B7280" font-family="Inter, sans-serif" font-size="11" letter-spacing="0.5">1041mm wheelbase</text>
+          <text x="270" y="105" fill="#6B7280" font-family="Inter, sans-serif" font-size="11" letter-spacing="0.5">73.5° head angle</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="craft" id="work">
+    <div class="wrap craft-grid">
+      <div class="craft-text">
+        <h2>Every tube is chosen for the rider, not the catalogue.</h2>
+        <p>We spend the first hour of every build talking about how you actually ride: your roads, your load, your reach. Then we miter, align, and braze the frame around that conversation — not the other way round.</p>
+        <p>Steel remembers what it's told. Get the geometry right the first time, and the bike disappears under you for the next two decades.</p>
+      </div>
+      <dl class="specs">
+        <div class="spec-row">
+          <dt>Material</dt>
+          <dd>Columbus & Reynolds steel tubesets</dd>
+        </div>
+        <div class="spec-row">
+          <dt>Joinery</dt>
+          <dd>Fillet-brazed or lugged, by hand</dd>
+        </div>
+        <div class="spec-row">
+          <dt>Lead time</dt>
+          <dd>10–14 weeks, built to order</dd>
+        </div>
+        <div class="spec-row">
+          <dt>Warranty</dt>
+          <dd>Lifetime frame guarantee</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="wrap">
+      <h2>Two ways to work with us</h2>
+      <div class="service-list">
+        <article class="service">
+          <h3>Custom builds</h3>
+          <p>A frame designed and fabricated around your body, your riding, and your roads — from first fitting to final paint.</p>
+          <span class="service-price">From $2,400</span>
+        </article>
+        <article class="service">
+          <h3>Repair & restoration</h3>
+          <p>Cracked stays, bent dropouts, tired paint. We'll tell you honestly whether it's worth saving — and then save it.</p>
+          <span class="service-price">From $180</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <div class="wrap">
+      <h2>How a frame gets built</h2>
+      <ol class="process-list">
+        <li>
+          <span class="step-num">01</span>
+          <div>
+            <h3>Fitting & conversation</h3>
+            <p>We measure you, not a size chart, and talk through how the bike needs to behave.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">02</span>
+          <div>
+            <h3>Design & tubing selection</h3>
+            <p>Geometry is drawn to your numbers; tubing is chosen for your weight and terrain.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">03</span>
+          <div>
+            <h3>Miter & braze</h3>
+            <p>Every joint is hand-mitered and brazed in-house, then checked against the original drawing.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">04</span>
+          <div>
+            <h3>Finish & handoff</h3>
+            <p>Paint, build kit, and a final fitting session before the frame leaves the shop.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="quote">
+    <div class="wrap">
+      <blockquote>
+        "I've put nine thousand miles on this frame and it still tracks a straight line with no hands. That's not an accident — that's the fitting."
+      </blockquote>
+      <p class="quote-attr">Dana Whitfield, custom build, 2022</p>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="wrap cta-inner">
+      <h2>Tell us what you ride, and why.</h2>
+      <p>We take on a limited number of frames each season. Reach out and we'll start with a conversation, not a quote.</p>
+      <a href="mailto:build@foundrycycles.example" class="btn btn-primary">build@foundrycycles.example</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>Foundry Cycles — Portland, Oregon</span>
+    <span>Shop hours: Tue–Sat, 10–6</span>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.main-nav');
+  toggle.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', isOpen);
+  });
+</script>
+</body>
+</html>
